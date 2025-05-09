@@ -1,0 +1,25 @@
+﻿@page "/"
+
+<PageTitle>CS 3500</PageTitle>
+
+<h1>CS 3500 - Spreadsheet GUI in Blazor!</h1>
+
+<p>
+    A spreadsheet application by Josh Eggett and Isaac Huntsman
+    Based on manual testing, it passes all high-level requirements, plus:
+    <ul>
+        <li>get contents of cell when you click on a new one (displays what is in the new cell)</li>
+        <li>resize input is sanitized (negatives, doubles).</li>
+        <li>Can resize rows and columns to 10 million, column headers are proper excel-style, i.e., "AA25".</li>
+    </ul>
+</p>
+<h2>How to Use</h2>
+<p>By default we select A1. clicking on a cell selects it, shows you the current cell you're
+    in in the contents box in the toolbar. The contents box allows input. Hitting enter allows content
+    change. Helpful popups occur if any errors happen, and spreadsheet state will not change. Selecting a cell pulls
+    up the current "contents" in the editable box, and the computed value and cell name in the non-editable boxes.
+</p>
+
+<environment names="Development">
+    <script src="_framework/aspnetcore-browser-refresh.js"></script>
+</environment>
