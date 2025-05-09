@@ -78,7 +78,7 @@ Hours
 | --------------------------------------
 |      7/10.5       | Formula.cs & tester | Took some time to get used to Visual Studio which lengthened estimate  
 |      20/11.5      | DG & tester         | coding went smoothly. Testing took longer than I expected  
-|      22/17.25     ! Formula evaluator   | Override methods were easy. Wrote Eval pedantically then simplified  
+|      22/17.25     | Formula evaluator   | Override methods were easy. Wrote Eval pedantically then simplified  
 |      17/10.5      | Spreadsheet proj    | Did well with this one given TDD and deep initial understanding of API  
 |      12/25.5      | Spreadsheet pt 2    | Tough assignment. Not very good at est time. My time management is still good in my opinion. I never got really stuck, just was rethinking solutions to the problem.
 |      12/9         | Spreadsheet GUI     | Efficiently implemented the view portion.
