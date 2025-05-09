@@ -11,26 +11,26 @@ I asked chatGPT "explain how I might test an instance of a delegate in mstest an
 I asked chatGPT how it would construct a chained stress test but did not copy any code.
 
 
-### Formula project and test project. (assign 1, 2, 4)
+### Formula project and test project.
 
 Validates formulas, Evaluates variables
 
-### Dependency Graph and test project. (assign 3)
+### Dependency Graph and test project.
 
 Checks what variables depend on what other variables.
 
-### Solution PROJECT (assign 5)
+### Solution PROJECT
 
 Represents state of a simple spreadsheet application. Can get names of all nonempty cells,
 query a cell, set contents of cell, and other functionality borrowed from the two other projects.
 
-### solution PROJECT continued (assign 6)
+### solution PROJECT continued
 
 Spreadsheet can save and load, public API is updated to be simplified. Now contains an indexer overload.
 Now lookups and recalculates cell values upon switching of cell contents. Differentiates between contents
 and computed value.
 
-### Spreadsheet PROJECT GUI (assign 7)
+### Spreadsheet PROJECT GUI
 
 A GUI for the spreadsheet. Contains a modifiable size for a grid of X columns, Y rows.
 It includes the following functionality:
